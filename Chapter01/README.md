@@ -1,4 +1,4 @@
-**Pong implementation in c++ and SDL**
+**Pong implementation in C++ and SDL**
 
 W  and S    move paddle 1
 UP and DOWN move paddle 2
