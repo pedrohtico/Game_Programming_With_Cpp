@@ -1,6 +1,0 @@
-﻿  Game.cpp
-C:\Users\canet_000\Desktop\Programação\Game Programming in C++\Chapters\Chapter 01\Chapter01\Chapter01\Game.cpp(21,26): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
-C:\Users\canet_000\Desktop\Programação\Game Programming in C++\Chapters\Chapter 01\Chapter01\Chapter01\Game.cpp(22,26): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
-  main.cpp
-  Gerando Código...
-  Chapter01.vcxproj -> C:\Users\canet_000\Desktop\Programação\Game Programming in C++\Chapters\Chapter 01\Chapter01\Debug\Chapter01.exe
