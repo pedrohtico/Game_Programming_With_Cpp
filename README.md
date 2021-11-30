@@ -6,3 +6,9 @@ Chapter 01:
 Chapter 02:
   - Implementation of a hybrid game structure (components and hierarchy)
     - Game is just a test for the game architecture
+  
+  Exercise 2.2:
+    - Changing animation component to support multiple animations.
+    
+  Exercise 2.3:
+    - Making a new component for a tile based map.
