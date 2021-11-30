@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "99e6a0b7-18cc-42b4-97d3-171fcbcf2b4a": {
+      "ProjectGuid": "99e6a0b7-18cc-42b4-97d3-171fcbcf2b4a",
+      "DisplayName": "Chapter01",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

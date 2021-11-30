@@ -1,0 +1,6 @@
+﻿  Game.cpp
+C:\Users\pedro\source\repos\Game_Programming_With_Cpp\Chapter 01\Chapter01\Game.cpp(21,26): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
+C:\Users\pedro\source\repos\Game_Programming_With_Cpp\Chapter 01\Chapter01\Game.cpp(22,26): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
+  main.cpp
+  Gerando Código...
+  Chapter01.vcxproj -> C:\Users\pedro\Source\Repos\Game_Programming_With_Cpp\Chapter 01\x64\Debug\Chapter01.exe

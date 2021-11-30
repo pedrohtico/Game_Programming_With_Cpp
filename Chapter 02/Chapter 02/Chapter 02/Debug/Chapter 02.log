@@ -1,2 +1,35 @@
-﻿  Game.cpp
-  Chapter 02.vcxproj -> C:\Users\canet_000\Desktop\Programação\Game Programming in C++\Chapters\Chapter 02\Debug\Chapter 02.exe
+﻿  Actor.cpp
+  Game.cpp
+  main.cpp
+  Math.cpp
+  Ship.cpp
+  SpriteComponent.cpp
+  Gerando Código...
+BackgroundSpriteComponent.obj : error LNK2019: símbolo externo não resolvido, _SDL_RenderCopy, referenciado na função "public: virtual void __thiscall BackgroundSpriteComponent::Draw(struct SDL_Renderer *)" (?Draw@BackgroundSpriteComponent@@UAEXPAUSDL_Renderer@@@Z)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_GetError, referenciado na função "public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_FreeSurface, referenciado na função "public: struct SDL_Texture * __thiscall Game::GetTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?GetTexture@Game@@QAEPAUSDL_Texture@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_CreateWindow, referenciado na função "public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_DestroyWindow, referenciado na função "public: void __thiscall Game::Shutdown(void)" (?Shutdown@Game@@QAEXXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_GetKeyboardState, referenciado na função "private: void __thiscall Game::ProcessInput(void)" (?ProcessInput@Game@@AAEXXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_PollEvent, referenciado na função "private: void __thiscall Game::ProcessInput(void)" (?ProcessInput@Game@@AAEXXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_Log, referenciado na função "public: struct SDL_Texture * __thiscall Game::GetTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?GetTexture@Game@@QAEPAUSDL_Texture@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_CreateRenderer, referenciado na função "public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_CreateTextureFromSurface, referenciado na função "public: struct SDL_Texture * __thiscall Game::GetTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?GetTexture@Game@@QAEPAUSDL_Texture@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_SetRenderDrawColor, referenciado na função "private: void __thiscall Game::GenerateOutput(void)" (?GenerateOutput@Game@@AAEXXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_RenderClear, referenciado na função "private: void __thiscall Game::GenerateOutput(void)" (?GenerateOutput@Game@@AAEXXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_RenderPresent, referenciado na função "private: void __thiscall Game::GenerateOutput(void)" (?GenerateOutput@Game@@AAEXXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_DestroyTexture, referenciado na função "private: void __thiscall Game::UnloadData(void)" (?UnloadData@Game@@AAEXXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_DestroyRenderer, referenciado na função "public: void __thiscall Game::Shutdown(void)" (?Shutdown@Game@@QAEXXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_GetTicks, referenciado na função "public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_Init, referenciado na função "public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _SDL_Quit, referenciado na função "public: void __thiscall Game::Shutdown(void)" (?Shutdown@Game@@QAEXXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _IMG_Init, referenciado na função "public: bool __thiscall Game::Initialize(void)" (?Initialize@Game@@QAE_NXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _IMG_Quit, referenciado na função "public: void __thiscall Game::Shutdown(void)" (?Shutdown@Game@@QAEXXZ)
+Game.obj : error LNK2019: símbolo externo não resolvido, _IMG_Load, referenciado na função "public: struct SDL_Texture * __thiscall Game::GetTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?GetTexture@Game@@QAEPAUSDL_Texture@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+SpriteComponent.obj : error LNK2019: símbolo externo não resolvido, _SDL_QueryTexture, referenciado na função "public: virtual void __thiscall SpriteComponent::SetTexture(struct SDL_Texture *)" (?SetTexture@SpriteComponent@@UAEXPAUSDL_Texture@@@Z)
+SpriteComponent.obj : error LNK2019: símbolo externo não resolvido, _SDL_RenderCopyEx, referenciado na função "public: virtual void __thiscall SpriteComponent::Draw(struct SDL_Renderer *)" (?Draw@SpriteComponent@@UAEXPAUSDL_Renderer@@@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo não resolvido, _main, referenciado na função "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\pedro\Documents\SDL2\lib\x64\SDL2.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Users\pedro\Documents\SDL2\lib\x64\SDL2main.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Users\pedro\Documents\SDL2Image\lib\x64\SDL2_image.lib : warning LNK4272: o tipo de máquina da biblioteca 'x64' está em conflito com o tipo de máquina de destino 'x86'
+C:\Users\pedro\Source\Repos\Game_Programming_With_Cpp\Chapter 02\Chapter 02\Debug\Chapter 02.exe : fatal error LNK1120: 24 externo não resolvidos
